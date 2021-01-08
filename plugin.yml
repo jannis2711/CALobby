@@ -1,0 +1,29 @@
+name: CALobby
+version: 2.0
+author: Jannis2711
+main: de.cyberanimals.calobby
+depend: [CyberCore]
+loadbefore: [CyberCore]
+
+commands:
+    gamemode:
+        usage: /<command> <GameMode> [Player]
+        aliases: [gm,gamem,gmode]
+        description: Change Gamemode of a Player
+    sun:
+        usage: /<command>
+        aliases: [sunday]
+        description: Change Weather to Sunny
+    buildmode:
+        usage: /<command>
+        aliases: [bm,baumodus,baumode,pbm,playerbuildmode,playerbm]
+        description: Make that Players can build
+    setspawn:
+        usage: /<command>
+        description: Spawnpunkt setzen
+    spawn:
+        usage: /<command>
+        description: Zum Spawn teleportieren
+    vanish:
+        usage: /<command>
+        description: Unsichtbar-Sichtbar machen
